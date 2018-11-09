@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OpenStreetMap Nominatim: Search</title>
+    <meta content="IE=edge" http-equiv="x-ua-compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <base href="https://nominatim.openstreetmap.org/" />
+    <link href="nominatim.xml" rel="search" title="Nominatim Search" type="application/opensearchdescription+xml" />
+    <link href="css/leaflet.css" rel="stylesheet" />
+    <link href="css/Control.Minimap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <link href="css/search.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="search-page">
+
+    <header class="container-fluid">
+    <div class="row">
+        <div class="col-xs-4">
+            <div class="brand">
+                <a href="https://nominatim.openstreetmap.org/">
+                <img alt="logo" src="images/osm_logo.120px.png" width="30" height="30"/>
+                <h1>Nominatim</h1>
+                </a>
+            </div>
+        </div>
+        <div id="last-updated" class="col-xs-4 text-center">
+                            Data last updated:
+                <br>
+                2018/11/09 12:44 GMT                    </div>
+        <div class="col-xs-4 text-right">
+            <div class="btn-group">
+                <button class="dropdown-toggle btn btn-sm btn-default" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    About &amp; Help <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="https://wiki.openstreetmap.org/wiki/Nominatim" target="_blank">Documentation</a></li>
+                    <li><a href="https://wiki.openstreetmap.org/wiki/Nominatim/FAQ" target="_blank">FAQ</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#" class="" data-toggle="modal" data-target="#report-modal">Report problem with results</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="modal fade" id="report-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Report a problem</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+    Before reporting problems please read the <a target="_blank" href="https://wiki.openstreetmap.org/wiki/Nominatim">user documentation</a>
+    and
+    <a target="_blank" href="https://wiki.openstreetmap.org/wiki/Nominatim/FAQ">FAQ</a>.
+
+    If your problem relates to the address of a particular search result please use the 'details' link 
+    to check how the address was generated before reporting a problem.
+</p>
+<p>
+    Use <a target="_blank" href="https://github.com/openstreetmap/nominatim/issues">Nominatim issues on github</a>
+    to report problems.
+<!-- You can search for existing bug reports
+    <a href="https://trac.openstreetmap.org/query?status=new&amp;status=assigned&amp;status=reopened&amp;component=nominatim&amp;order=priority">here</a>.</p>
+ -->
+</p>
+<p>
+    Please ensure that you include a full description of the problem, including the search
+    query that you used, the problem with the result and, if the problem relates to missing data,
+    the osm type (node, way, relation) and id of the item that is missing.
+</p>
+<p>
+    Problems that contain enough detail are likely to get looked at before ones that require
+    significant research.
+</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <form class="form-inline" role="search" accept-charset="UTF-8" action="https://nominatim.openstreetmap.org/search.php">
+        <div class="form-group">
+            <input id="q" name="q" type="text" class="form-control input-sm" placeholder="Search" value="Riacho Fundo brasilia distrito federal" >
+        </div>
+        <div class="form-group search-button-group">
+            <button type="submit" class="btn btn-primary btn-sm">Search</button>
+                            <input type="hidden" value="1" name="polygon_geojson" />
+                        <input type="hidden" name="viewbox" value="" />
+            <div class="checkbox-inline">
+                <input type="checkbox" id="use_viewbox" >
+                <label for="use_viewbox">apply viewbox</label>
+            </div>
+        </div>
+        <div class="search-type-link">
+            <a id="switch-to-reverse" href="https://nominatim.openstreetmap.org/reverse.php?format=html">reverse search</a>
+        </div>
+    </form>
+
+
+    <div id="content">
+
+
+        <div id="searchresults" class="sidebar">
+        <div class="result" data-position=0> <span class="name">Riacho Fundo, Região Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Região Centro-Oeste, 71805547, Brasil</span> <span class="type">(Stream)</span> <a class="btn btn-default btn-xs details" href="details.php?place_id=159948296">details</a></div><div class="result" data-position=1> <span class="name">Riacho Fundo, Região Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Região Centro-Oeste, 71810200, Brasil</span> <span class="type">(Stream)</span> <a class="btn btn-default btn-xs details" href="details.php?place_id=159949614">details</a></div><div class="result" data-position=2> <span class="name">Riacho Fundo, Região Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Região Centro-Oeste, 71741103, Brasil</span> <span class="type">(Stream)</span> <a class="btn btn-default btn-xs details" href="details.php?place_id=148584152">details</a></div><div class="result" data-position=3> <span class="name">Riacho Fundo, Núcleo Bandeirante, Região Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Região Centro-Oeste, 71705521, Brasil</span> <span class="type">(Stream)</span> <a class="btn btn-default btn-xs details" href="details.php?place_id=134653850">details</a></div><div class="result" data-position=4> <span class="name">Riacho Fundo, Núcleo Bandeirante, Região Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Região Centro-Oeste, 71741103, Brasil</span> <span class="type">(Stream)</span> <a class="btn btn-default btn-xs details" href="details.php?place_id=147467314">details</a></div><div class="result" data-position=5> <span class="name">Riacho Fundo, Região Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Região Centro-Oeste, 72035-504, Brasil</span> <span class="type">(Stream)</span> <a class="btn btn-default btn-xs details" href="details.php?place_id=135065718">details</a></div><div class="result" data-position=6><img alt="icon" src="https://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png"/> <span class="name">Riacho Fundo, Região Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Região Centro-Oeste, Brasil</span> <span class="type">(City)</span> <a class="btn btn-default btn-xs details" href="details.php?place_id=199207516">details</a></div><div class="more"><a class="btn btn-primary" href="https://nominatim.openstreetmap.org/search.php?q=Riacho+Fundo+brasilia+distrito+federal&amp;polygon_geojson=1&amp;exclude_place_ids=159948296%2C159949614%2C159504687%2C148584152%2C159503283%2C134653850%2C147467314%2C134656228%2C136619668%2C135065718%2C135117957%2C136197981%2C106408642%2C199207516">Search for more results</a></div>        </div>
+
+
+        <div id="map-wrapper">
+            <div id="map-position">
+                <div id="map-position-inner"></div>
+                <div id="map-position-close"><a href="#">hide</a></div>
+            </div>
+            <div id="map"></div>
+        </div>
+
+    </div> <!-- /content -->
+
+
+
+
+
+
+
+    <script type="text/javascript">
+    var nominatim_map_init = {
+    "zoom": 2,
+    "lat": 20,
+    "lon": 0,
+    "tile_url": "https:\/\/{s}.tile.openstreetmap.org\/{z}\/{x}\/{y}.png",
+    "tile_attribution": ""
+};var nominatim_results = [
+    {
+        "osm_type": "W",
+        "osm_id": "375733953",
+        "class": "waterway",
+        "type": "stream",
+        "admin_level": "15",
+        "rank_search": "17",
+        "rank_address": "0",
+        "place_id": "159948296",
+        "parent_place_id": "199207516",
+        "housenumber": "-1",
+        "country_code": "br",
+        "langaddress": "Riacho Fundo, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, 71805547, Brasil",
+        "placename": "Riacho Fundo",
+        "ref": "Riacho Fundo",
+        "lon": "-48.0249836",
+        "lat": "-15.8939101",
+        "importance": 0.7250000000000001,
+        "addressimportance": "5.76997556387039",
+        "extra_place": null,
+        "addresstype": "waterway",
+        "asgeojson": "{\"type\":\"LineString\",\"coordinates\":[[-48.0269472,-15.8914941],[-48.0269055,-15.8916064],[-48.026412,-15.8919779],[-48.025897,-15.893026],[-48.0254266,-15.8934273],[-48.0249757,-15.8937714],[-48.0249836,-15.8939101],[-48.0251199,-15.8939989],[-48.0251913,-15.8940765],[-48.0251746,-15.8941857],[-48.0250278,-15.8943336],[-48.0246525,-15.8945369],[-48.0237304,-15.8952709],[-48.0235707,-15.8954564],[-48.0232207,-15.8962837]]}",
+        "aBoundingBox": [
+            "-15.8962837",
+            "-15.8914941",
+            "-48.0269472",
+            "-48.0232207"
+        ],
+        "label": "Stream",
+        "name": "Riacho Fundo, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, 71805547, Brasil",
+        "foundorder": -1.5660975563870392
+    },
+    {
+        "osm_type": "W",
+        "osm_id": "375733951",
+        "class": "waterway",
+        "type": "stream",
+        "admin_level": "15",
+        "rank_search": "17",
+        "rank_address": "0",
+        "place_id": "159949614",
+        "parent_place_id": "199207516",
+        "housenumber": "-1",
+        "country_code": "br",
+        "langaddress": "Riacho Fundo, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, 71810200, Brasil",
+        "placename": "Riacho Fundo",
+        "ref": "Riacho Fundo",
+        "lon": "-48.0115815",
+        "lat": "-15.9059841",
+        "importance": 0.7250000000000001,
+        "addressimportance": "5.76997556387039",
+        "extra_place": null,
+        "addresstype": "waterway",
+        "asgeojson": "{\"type\":\"LineString\",\"coordinates\":[[-48.0115815,-15.9059841],[-48.0113599,-15.9060056]]}",
+        "aBoundingBox": [
+            "-15.9060056",
+            "-15.9059841",
+            "-48.0115815",
+            "-48.0113599"
+        ],
+        "label": "Stream",
+        "name": "Riacho Fundo, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, 71810200, Brasil",
+        "foundorder": -1.5660975563870392
+    },
+    {
+        "osm_type": "W",
+        "osm_id": "313527026",
+        "class": "waterway",
+        "type": "stream",
+        "admin_level": "15",
+        "rank_search": "17",
+        "rank_address": "0",
+        "place_id": "148584152",
+        "parent_place_id": "199207516",
+        "housenumber": "-1",
+        "country_code": "br",
+        "langaddress": "Riacho Fundo, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, 71741103, Brasil",
+        "placename": "Riacho Fundo",
+        "ref": "Riacho Fundo",
+        "lon": "-47.9844863",
+        "lat": "-15.8822499",
+        "importance": 0.7250000000000001,
+        "addressimportance": "5.76997556387039",
+        "extra_place": null,
+        "addresstype": "waterway",
+        "asgeojson": "{\"type\":\"LineString\",\"coordinates\":[[-47.9887585,-15.886609],[-47.988593,-15.8861905],[-47.9885475,-15.8856433],[-47.9881745,-15.8848156],[-47.9879722,-15.8845673],[-47.9878986,-15.8843833],[-47.9878112,-15.8843465],[-47.9877101,-15.8844983],[-47.9875675,-15.8845213],[-47.9874617,-15.8843741],[-47.9874249,-15.8842132],[-47.9871357,-15.8837714],[-47.9866657,-15.8834698],[-47.9864363,-15.8836016],[-47.9859766,-15.8834033],[-47.9854232,-15.8830768],[-47.9844863,-15.8822499],[-47.9841358,-15.882011],[-47.9839548,-15.8819593],[-47.9837209,-15.8819715],[-47.9833975,-15.8820573],[-47.9830761,-15.8822784],[-47.9829144,-15.8822716],[-47.9826036,-15.8821315],[-47.9822039,-15.881857],[-47.9818624,-15.8817263],[-47.9813499,-15.8814534],[-47.9810093,-15.881133],[-47.9807386,-15.8810645],[-47.980383,-15.8807353],[-47.9798798,-15.8806758],[-47.9797346,-15.8807123],[-47.9795963,-15.8807546],[-47.9794512,-15.8807572],[-47.979281,-15.8806861],[-47.9789748,-15.8805249]]}",
+        "aBoundingBox": [
+            "-15.886609",
+            "-15.8805249",
+            "-47.9887585",
+            "-47.9789748"
+        ],
+        "label": "Stream",
+        "name": "Riacho Fundo, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, 71741103, Brasil",
+        "foundorder": -1.5660975563870392
+    },
+    {
+        "osm_type": "W",
+        "osm_id": "249850052",
+        "class": "waterway",
+        "type": "stream",
+        "admin_level": "15",
+        "rank_search": "17",
+        "rank_address": "0",
+        "place_id": "134653850",
+        "parent_place_id": "198614059",
+        "housenumber": "-1",
+        "country_code": "br",
+        "langaddress": "Riacho Fundo, N\u00facleo Bandeirante, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, 71705521, Brasil",
+        "placename": "Riacho Fundo",
+        "ref": "Riacho Fundo",
+        "lon": "-47.9673176",
+        "lat": "-15.8755704",
+        "importance": 0.7250000000000001,
+        "addressimportance": "5.76997556387039",
+        "extra_place": null,
+        "addresstype": "waterway",
+        "asgeojson": "{\"type\":\"LineString\",\"coordinates\":[[-47.9697176,-15.8774836],[-47.9692026,-15.8773391],[-47.9686265,-15.8767262],[-47.9673176,-15.8755704],[-47.9662415,-15.8750895],[-47.9659295,-15.8750175]]}",
+        "aBoundingBox": [
+            "-15.8774836",
+            "-15.8750175",
+            "-47.9697176",
+            "-47.9659295"
+        ],
+        "label": "Stream",
+        "name": "Riacho Fundo, N\u00facleo Bandeirante, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, 71705521, Brasil",
+        "foundorder": -1.5660975563870392
+    },
+    {
+        "osm_type": "W",
+        "osm_id": "312951686",
+        "class": "waterway",
+        "type": "stream",
+        "admin_level": "15",
+        "rank_search": "17",
+        "rank_address": "0",
+        "place_id": "147467314",
+        "parent_place_id": "198614059",
+        "housenumber": "-1",
+        "country_code": "br",
+        "langaddress": "Riacho Fundo, N\u00facleo Bandeirante, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, 71741103, Brasil",
+        "placename": "Riacho Fundo",
+        "ref": "Riacho Fundo",
+        "lon": "-47.9776305",
+        "lat": "-15.8794571",
+        "importance": 0.7250000000000001,
+        "addressimportance": "5.76997556387039",
+        "extra_place": null,
+        "addresstype": "waterway",
+        "asgeojson": "{\"type\":\"LineString\",\"coordinates\":[[-47.9788721,-15.8804689],[-47.9786774,-15.8803627],[-47.978129,-15.8800635],[-47.9776305,-15.8794571],[-47.9775309,-15.8793334],[-47.9774128,-15.8792319],[-47.9772183,-15.8791804],[-47.9770539,-15.8791758],[-47.9768663,-15.8791222],[-47.9767922,-15.8790105],[-47.9766292,-15.8789143],[-47.9763069,-15.8787475],[-47.9762029,-15.8786869]]}",
+        "aBoundingBox": [
+            "-15.8804689",
+            "-15.8786869",
+            "-47.9788721",
+            "-47.9762029"
+        ],
+        "label": "Stream",
+        "name": "Riacho Fundo, N\u00facleo Bandeirante, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, 71741103, Brasil",
+        "foundorder": -1.5660975563870392
+    },
+    {
+        "osm_type": "W",
+        "osm_id": "249850049",
+        "class": "waterway",
+        "type": "stream",
+        "admin_level": "15",
+        "rank_search": "17",
+        "rank_address": "0",
+        "place_id": "135065718",
+        "parent_place_id": "199207516",
+        "housenumber": "-1",
+        "country_code": "br",
+        "langaddress": "Riacho Fundo, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, 72035-504, Brasil",
+        "placename": "Riacho Fundo",
+        "ref": "Riacho Fundo",
+        "lon": "-48.0372234",
+        "lat": "-15.8840674",
+        "importance": 0.7250000000000001,
+        "addressimportance": "5.76997556387039",
+        "extra_place": null,
+        "addresstype": "waterway",
+        "asgeojson": "{\"type\":\"LineString\",\"coordinates\":[[-48.0497762,-15.8842118],[-48.0489415,-15.8835989],[-48.0469674,-15.8826701],[-48.0456348,-15.8819416],[-48.0440684,-15.8820861],[-48.0420975,-15.8819684],[-48.0406781,-15.8819416],[-48.0397372,-15.8823812],[-48.0389433,-15.8828559],[-48.0382566,-15.8834544],[-48.0372234,-15.8840674],[-48.0363651,-15.8846865],[-48.0353384,-15.8849816],[-48.0355315,-15.8850642],[-48.0346732,-15.8855802],[-48.0340509,-15.8870042],[-48.0333643,-15.8879329],[-48.031108,-15.8888348],[-48.0297132,-15.8897222],[-48.0272274,-15.8907396],[-48.0270221,-15.8912923]]}",
+        "aBoundingBox": [
+            "-15.8912923",
+            "-15.8819416",
+            "-48.0497762",
+            "-48.0270221"
+        ],
+        "label": "Stream",
+        "name": "Riacho Fundo, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, 72035-504, Brasil",
+        "foundorder": -1.5660975563870392
+    },
+    {
+        "osm_type": "R",
+        "osm_id": "3359481",
+        "class": "boundary",
+        "type": "administrative",
+        "admin_level": "8",
+        "rank_search": "16",
+        "rank_address": "16",
+        "place_id": "199207516",
+        "parent_place_id": "199176915",
+        "housenumber": "-1",
+        "country_code": "br",
+        "langaddress": "Riacho Fundo, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, Brasil",
+        "placename": "Riacho Fundo",
+        "ref": "Riacho Fundo",
+        "lon": "-48.0174762",
+        "lat": "-15.883305",
+        "importance": 0.663924667233973,
+        "addressimportance": "5.76997556387039",
+        "extra_place": "town",
+        "addresstype": "boundary",
+        "asgeojson": "{\"type\":\"Polygon\",\"coordinates\":[[[-48.0541199,-15.8798583],[-48.0498808,-15.8884618],[-48.0496814,-15.8891229],[-48.0490345,-15.8913192],[-48.0482219,-15.8916547],[-48.0470645,-15.8923429],[-48.0463575,-15.8929093],[-48.0449202,-15.8942717],[-48.0443536,-15.8949499],[-48.044024,-15.8955276],[-48.0433886,-15.8970563],[-48.0424542,-15.8973263],[-48.0390067,-15.8989299],[-48.031752,-15.899009],[-48.0312244,-15.8987515],[-48.0304915,-15.8968931],[-48.0300907,-15.8965205],[-48.02814,-15.8954939],[-48.0272384,-15.8953028],[-48.0267267,-15.8953203],[-48.0249743,-15.8958752],[-48.0238283,-15.8966245],[-48.0233606,-15.8964887],[-48.0232207,-15.8962837],[-48.0227547,-15.8971508],[-48.0223773,-15.8970981],[-48.0220655,-15.8969394],[-48.0218321,-15.8970139],[-48.0214948,-15.8972704],[-48.0212954,-15.8975763],[-48.0211101,-15.8981676],[-48.021012,-15.8985911],[-48.0196329,-15.8992757],[-48.0187908,-15.9001441],[-48.0183234,-15.9001864],[-48.0180288,-15.9005293],[-48.0178349,-15.9008872],[-48.0177333,-15.9012521],[-48.0172226,-15.9016149],[-48.0165898,-15.9017725],[-48.0161175,-15.9024026],[-48.014158,-15.904413],[-48.0131113,-15.9050853],[-48.0115815,-15.9059841],[-48.0113599,-15.9060056],[-48.0107011,-15.9060697],[-48.0100827,-15.9061554],[-48.0097576,-15.9072223],[-48.007423,-15.9088443],[-48.0056624,-15.9105199],[-48.0034882,-15.9109894],[-48.0019112,-15.9141451],[-48.0005076,-15.9164045],[-48.0008365,-15.9172975],[-48.0005692,-15.9176731],[-48.0003107,-15.9178684],[-47.9997657,-15.9181429],[-47.9977797,-15.9197823],[-47.9984944,-15.9214958],[-47.9991085,-15.9217274],[-47.9997066,-15.9222153],[-48.0016974,-15.9246309],[-48.0035433,-15.9271979],[-48.0050809,-15.928897],[-48.0050772,-15.9300024],[-48.0055235,-15.931061],[-48.0063781,-15.9319211],[-48.0088821,-15.9337774],[-48.0111219,-15.9337662],[-48.0116907,-15.934092],[-48.0095736,-15.9362252],[-48.0063896,-15.9396117],[-48.0067613,-15.9399386],[-48.0042639,-15.9425113],[-48.0037119,-15.9439161],[-48.0027948,-15.9449036],[-48.0018253,-15.9451125],[-48.0015841,-15.9454481],[-48.0014238,-15.9448995],[-48.0011461,-15.9445513],[-48.0005672,-15.9435389],[-48.0000166,-15.9428423],[-47.9997845,-15.9423669],[-47.9994743,-15.9415224],[-47.9989884,-15.9410416],[-47.9983366,-15.9405811],[-47.997557,-15.9399328],[-47.9970185,-15.9393082],[-47.9968184,-15.939031],[-47.9966833,-15.9382202],[-47.9965631,-15.9380503],[-47.9958096,-15.9377177],[-47.9956457,-15.9375484],[-47.9952262,-15.9373285],[-47.9948868,-15.9369088],[-47.9946929,-15.9367399],[-47.9939968,-15.9363703],[-47.9931738,-15.9354336],[-47.9926243,-15.9350078],[-47.9923145,-15.9345696],[-47.991309,-15.9337257],[-47.9910366,-15.9335489],[-47.9893754,-15.9327322],[-47.9886194,-15.9322821],[-47.9878842,-15.9316602],[-47.9866012,-15.9306757],[-47.9852461,-15.9298457],[-47.9849754,-15.9295966],[-47.984579,-15.9290964],[-47.9838276,-15.9284566],[-47.9836855,-15.9281967],[-47.9834643,-15.9280011],[-47.9834143,-15.9279025],[-47.9833921,-15.9275325],[-47.983457,-15.9270621],[-47.9837308,-15.9266429],[-47.9838035,-15.9264523],[-47.9838102,-15.9263348],[-47.9836404,-15.9260459],[-47.9835944,-15.9256182],[-47.9836082,-15.9254205],[-47.9836772,-15.9252366],[-47.9837923,-15.925125],[-47.9838194,-15.9248853],[-47.9836707,-15.9245398],[-47.9831283,-15.9237617],[-47.9827643,-15.9231256],[-47.9823525,-15.9226707],[-47.9822906,-15.9225271],[-47.9822695,-15.9222926],[-47.9820431,-15.92207],[-47.9819424,-15.9218908],[-47.9818193,-15.9218015],[-47.981686,-15.9215807],[-47.9818056,-15.9210105],[-47.9817734,-15.920891],[-47.9818422,-15.9207905],[-47.9818522,-15.9206459],[-47.9815526,-15.9199759],[-47.9815618,-15.9198011],[-47.9817584,-15.9192477],[-47.982058,-15.9186564],[-47.9820744,-15.9185027],[-47.9819553,-15.9179535],[-47.9819923,-15.9173661],[-47.982049,-15.9170312],[-47.9822905,-15.9163235],[-47.9830318,-15.915654],[-47.9832229,-15.9152631],[-47.9834092,-15.9147368],[-47.983752,-15.9142535],[-47.9838552,-15.9140353],[-47.9838338,-15.9134757],[-47.9838952,-15.912319],[-47.98414,-15.911521],[-47.9845131,-15.9098002],[-47.9851244,-15.908672],[-47.9858736,-15.9075871],[-47.9862825,-15.9069132],[-47.986241,-15.906688],[-47.986046,-15.9062482],[-47.9857139,-15.9050609],[-47.9857357,-15.9049522],[-47.9863602,-15.9042753],[-47.9867394,-15.9039811],[-47.9869958,-15.9037157],[-47.9875173,-15.9030764],[-47.9876176,-15.9028583],[-47.9876538,-15.9025237],[-47.9877678,-15.9021609],[-47.9877681,-15.9020525],[-47.9876206,-15.9017295],[-47.987622,-15.9015037],[-47.9876693,-15.9013044],[-47.9878867,-15.9008589],[-47.9878366,-15.9003088],[-47.9877009,-15.9000873],[-47.9878284,-15.8998755],[-47.9878526,-15.8995952],[-47.9877468,-15.8994619],[-47.9875905,-15.8994343],[-47.9874433,-15.8995125],[-47.9871996,-15.8994113],[-47.9871967,-15.8988729],[-47.9873115,-15.8988081],[-47.9876122,-15.8990206],[-47.9878098,-15.8979253],[-47.9883335,-15.8969969],[-47.9885458,-15.896398],[-47.9888192,-15.8958254],[-47.9888649,-15.8951926],[-47.9892052,-15.8944836],[-47.9891668,-15.8940958],[-47.9889133,-15.8932957],[-47.9889175,-15.8927538],[-47.9888225,-15.8924481],[-47.9890805,-15.8922278],[-47.9891401,-15.8921006],[-47.9889879,-15.891904],[-47.9886845,-15.8917637],[-47.9886389,-15.8915747],[-47.9888593,-15.8909035],[-47.9890034,-15.889854],[-47.9889507,-15.8897554],[-47.9887701,-15.8896044],[-47.9888517,-15.889242],[-47.9887773,-15.8891437],[-47.9885295,-15.8891652],[-47.9884195,-15.8891126],[-47.9884153,-15.8890133],[-47.988555,-15.8888669],[-47.9889437,-15.8889067],[-47.989049,-15.888833],[-47.9890823,-15.888688],[-47.9890101,-15.8885987],[-47.9888275,-15.8886324],[-47.9886803,-15.8885634],[-47.9886757,-15.8883243],[-47.9888445,-15.8883211],[-47.9888942,-15.888212],[-47.9887635,-15.8880784],[-47.9887284,-15.8879705],[-47.9888459,-15.8869861],[-47.9887631,-15.8868113],[-47.9887585,-15.886609],[-47.988593,-15.8861905],[-47.9885475,-15.8856433],[-47.9881745,-15.8848156],[-47.9879722,-15.8845673],[-47.9878986,-15.8843833],[-47.9878112,-15.8843465],[-47.9877101,-15.8844983],[-47.9875675,-15.8845213],[-47.9874617,-15.8843741],[-47.9874249,-15.8842132],[-47.9871357,-15.8837714],[-47.9866657,-15.8834698],[-47.9864363,-15.8836016],[-47.9859766,-15.8834033],[-47.9854232,-15.8830768],[-47.9844863,-15.8822499],[-47.9841358,-15.882011],[-47.9839548,-15.8819593],[-47.9837209,-15.8819715],[-47.9833975,-15.8820573],[-47.9830761,-15.8822784],[-47.9829144,-15.8822716],[-47.9826036,-15.8821315],[-47.9822039,-15.881857],[-47.9818624,-15.8817263],[-47.9813499,-15.8814534],[-47.9810093,-15.881133],[-47.9807386,-15.8810645],[-47.980383,-15.8807353],[-47.9798798,-15.8806758],[-47.9797346,-15.8807123],[-47.9795963,-15.8807546],[-47.9794512,-15.8807572],[-47.979281,-15.8806861],[-47.9789748,-15.8805249],[-47.9794569,-15.8797331],[-47.9798246,-15.8789777],[-47.9799566,-15.8787111],[-47.9801883,-15.877611],[-47.9802143,-15.8772396],[-47.9802015,-15.8768676],[-47.9800548,-15.8759702],[-47.979884,-15.8754463],[-47.9796734,-15.8749692],[-47.9785691,-15.8724796],[-47.9830805,-15.8746734],[-47.9946101,-15.8763627],[-48.0000654,-15.8768568],[-48.0107774,-15.8777338],[-48.0118802,-15.8779268],[-48.0187428,-15.8770666],[-48.0273796,-15.8758871],[-48.0431686,-15.8737013],[-48.0446599,-15.8738974],[-48.0458457,-15.8743697],[-48.0541199,-15.8798583]]]}",
+        "aBoundingBox": [
+            "-15.9454481",
+            "-15.8724796",
+            "-48.0541199",
+            "-47.9785691"
+        ],
+        "icon": "https:\/\/nominatim.openstreetmap.org\/images\/mapicons\/poi_boundary_administrative.p.20.png",
+        "label": "City",
+        "name": "Riacho Fundo, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, Brasil",
+        "foundorder": -1.575197556387039
+    }
+];    </script>
+    <footer>
+    <p class="disclaimer">
+        Addresses and postcodes are approximate
+    </p>
+    <p class="copyright">
+        &copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors
+    </p>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/leaflet.min.js"></script>
+<script src="js/Control.Minimap.min.js"></script>
+<script src="js/url-search-params.js"></script>
+<script src="js/nominatim-ui.js"></script>
+
+</body>
+</html>

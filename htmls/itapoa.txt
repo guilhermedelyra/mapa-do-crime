@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OpenStreetMap Nominatim: Search</title>
+    <meta content="IE=edge" http-equiv="x-ua-compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <base href="https://nominatim.openstreetmap.org/" />
+    <link href="nominatim.xml" rel="search" title="Nominatim Search" type="application/opensearchdescription+xml" />
+    <link href="css/leaflet.css" rel="stylesheet" />
+    <link href="css/Control.Minimap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <link href="css/search.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="search-page">
+
+    <header class="container-fluid">
+    <div class="row">
+        <div class="col-xs-4">
+            <div class="brand">
+                <a href="https://nominatim.openstreetmap.org/">
+                <img alt="logo" src="images/osm_logo.120px.png" width="30" height="30"/>
+                <h1>Nominatim</h1>
+                </a>
+            </div>
+        </div>
+        <div id="last-updated" class="col-xs-4 text-center">
+                            Data last updated:
+                <br>
+                2018/11/09 12:44 GMT                    </div>
+        <div class="col-xs-4 text-right">
+            <div class="btn-group">
+                <button class="dropdown-toggle btn btn-sm btn-default" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    About &amp; Help <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="https://wiki.openstreetmap.org/wiki/Nominatim" target="_blank">Documentation</a></li>
+                    <li><a href="https://wiki.openstreetmap.org/wiki/Nominatim/FAQ" target="_blank">FAQ</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#" class="" data-toggle="modal" data-target="#report-modal">Report problem with results</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="modal fade" id="report-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Report a problem</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+    Before reporting problems please read the <a target="_blank" href="https://wiki.openstreetmap.org/wiki/Nominatim">user documentation</a>
+    and
+    <a target="_blank" href="https://wiki.openstreetmap.org/wiki/Nominatim/FAQ">FAQ</a>.
+
+    If your problem relates to the address of a particular search result please use the 'details' link 
+    to check how the address was generated before reporting a problem.
+</p>
+<p>
+    Use <a target="_blank" href="https://github.com/openstreetmap/nominatim/issues">Nominatim issues on github</a>
+    to report problems.
+<!-- You can search for existing bug reports
+    <a href="https://trac.openstreetmap.org/query?status=new&amp;status=assigned&amp;status=reopened&amp;component=nominatim&amp;order=priority">here</a>.</p>
+ -->
+</p>
+<p>
+    Please ensure that you include a full description of the problem, including the search
+    query that you used, the problem with the result and, if the problem relates to missing data,
+    the osm type (node, way, relation) and id of the item that is missing.
+</p>
+<p>
+    Problems that contain enough detail are likely to get looked at before ones that require
+    significant research.
+</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <form class="form-inline" role="search" accept-charset="UTF-8" action="https://nominatim.openstreetmap.org/search.php">
+        <div class="form-group">
+            <input id="q" name="q" type="text" class="form-control input-sm" placeholder="Search" value="Itapoã brasilia distrito federal" >
+        </div>
+        <div class="form-group search-button-group">
+            <button type="submit" class="btn btn-primary btn-sm">Search</button>
+                            <input type="hidden" value="1" name="polygon_geojson" />
+                        <input type="hidden" name="viewbox" value="" />
+            <div class="checkbox-inline">
+                <input type="checkbox" id="use_viewbox" >
+                <label for="use_viewbox">apply viewbox</label>
+            </div>
+        </div>
+        <div class="search-type-link">
+            <a id="switch-to-reverse" href="https://nominatim.openstreetmap.org/reverse.php?format=html">reverse search</a>
+        </div>
+    </form>
+
+
+    <div id="content">
+
+
+        <div id="searchresults" class="sidebar">
+        <div class="result" data-position=0><img alt="icon" src="https://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png"/> <span class="name">Itapoã, Região Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Região Centro-Oeste, Brasil</span> <span class="type">(City)</span> <a class="btn btn-default btn-xs details" href="details.php?place_id=199254189">details</a></div><div class="more"><a class="btn btn-primary" href="https://nominatim.openstreetmap.org/search.php?q=Itapo%C3%A3+brasilia+distrito+federal&amp;polygon_geojson=1&amp;exclude_place_ids=199254189">Search for more results</a></div>        </div>
+
+
+        <div id="map-wrapper">
+            <div id="map-position">
+                <div id="map-position-inner"></div>
+                <div id="map-position-close"><a href="#">hide</a></div>
+            </div>
+            <div id="map"></div>
+        </div>
+
+    </div> <!-- /content -->
+
+
+
+
+
+
+
+    <script type="text/javascript">
+    var nominatim_map_init = {
+    "zoom": 2,
+    "lat": 20,
+    "lon": 0,
+    "tile_url": "https:\/\/{s}.tile.openstreetmap.org\/{z}\/{x}\/{y}.png",
+    "tile_attribution": ""
+};var nominatim_results = [
+    {
+        "osm_type": "R",
+        "osm_id": "3359471",
+        "class": "boundary",
+        "type": "administrative",
+        "admin_level": "8",
+        "rank_search": "16",
+        "rank_address": "16",
+        "place_id": "199254189",
+        "parent_place_id": "199176915",
+        "housenumber": "-1",
+        "country_code": "br",
+        "langaddress": "Itapo\u00e3, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, Brasil",
+        "placename": "Itapo\u00e3",
+        "ref": "Itapo\u00e3",
+        "lon": "-47.7696938",
+        "lat": "-15.7484526",
+        "importance": 0.594215337770393,
+        "addressimportance": "5.76997556387039",
+        "extra_place": "town",
+        "addresstype": "boundary",
+        "asgeojson": "{\"type\":\"Polygon\",\"coordinates\":[[[-47.7900767,-15.7276604],[-47.7896958,-15.7285307],[-47.7893331,-15.7295728],[-47.7781363,-15.7584342],[-47.7610245,-15.7522843],[-47.7595495,-15.7520513],[-47.7578224,-15.7520287],[-47.7560379,-15.7523727],[-47.7541058,-15.753172],[-47.7399349,-15.7619462],[-47.7374772,-15.7629482],[-47.7347523,-15.7632176],[-47.7332674,-15.7630851],[-47.7323112,-15.7627867],[-47.7308757,-15.762233],[-47.7290125,-15.7610549],[-47.7047885,-15.7439373],[-47.7034661,-15.7431956],[-47.6911077,-15.7369035],[-47.6901408,-15.7364757],[-47.6896138,-15.7363055],[-47.6885272,-15.7360546],[-47.6874162,-15.7359329],[-47.6855127,-15.7358585],[-47.6827376,-15.735866],[-47.6804055,-15.7357773],[-47.6798305,-15.7356365],[-47.6795122,-15.7355002],[-47.6778675,-15.7343341],[-47.6774134,-15.7341491],[-47.6768828,-15.7341048],[-47.6759085,-15.7342847],[-47.6758491,-15.7340007],[-47.6756648,-15.7338133],[-47.6748109,-15.7334083],[-47.6746674,-15.7332745],[-47.6746681,-15.7330397],[-47.6753893,-15.732787],[-47.6757029,-15.7325934],[-47.6757555,-15.7324622],[-47.6771693,-15.7321545],[-47.6784787,-15.7331011],[-47.6784124,-15.7339466],[-47.6802246,-15.7340424],[-47.6809154,-15.7335458],[-47.6817351,-15.7322326],[-47.6826321,-15.7321659],[-47.6836487,-15.7311342],[-47.6851183,-15.7310916],[-47.6854065,-15.7303685],[-47.6862013,-15.7300068],[-47.6870411,-15.7294218],[-47.6875715,-15.729326],[-47.6880552,-15.7286384],[-47.6883892,-15.7286932],[-47.6886267,-15.7279274],[-47.6893837,-15.7270392],[-47.6907629,-15.7263948],[-47.6914647,-15.7265149],[-47.6918846,-15.7261161],[-47.6924537,-15.7262597],[-47.6929818,-15.7258217],[-47.6935204,-15.7261297],[-47.694169,-15.7259342],[-47.695289,-15.7263687],[-47.696638,-15.7270473],[-47.6976225,-15.7269721],[-47.6983179,-15.7272654],[-47.6991931,-15.7272654],[-47.69999,-15.7275136],[-47.7008806,-15.727396],[-47.7009549,-15.7284516],[-47.7025451,-15.7282883],[-47.7029748,-15.7264832],[-47.7039315,-15.7264377],[-47.7044359,-15.7268217],[-47.7061627,-15.7271601],[-47.7076551,-15.7269721],[-47.7083245,-15.727257],[-47.7096554,-15.727288],[-47.711169,-15.727457],[-47.7164468,-15.7272514],[-47.7180644,-15.7269539],[-47.7189282,-15.7255034],[-47.7194511,-15.7253973],[-47.7203236,-15.7258704],[-47.7213975,-15.7266022],[-47.7227693,-15.7268932],[-47.7245351,-15.7268105],[-47.7272387,-15.7275742],[-47.7295221,-15.728041],[-47.7299362,-15.7279369],[-47.7307823,-15.7270008],[-47.7321515,-15.7267649],[-47.732869,-15.7265956],[-47.7330355,-15.7263713],[-47.7334692,-15.7263508],[-47.733918,-15.7267188],[-47.7354926,-15.7266337],[-47.7368176,-15.7268639],[-47.7383172,-15.7275199],[-47.739879,-15.7281129],[-47.7413175,-15.7281207],[-47.742536,-15.7278564],[-47.7433175,-15.7272166],[-47.7435953,-15.7265013],[-47.7437363,-15.7258542],[-47.7441699,-15.7250979],[-47.7448168,-15.7244186],[-47.7460686,-15.7240524],[-47.7471446,-15.7241055],[-47.7480923,-15.7236839],[-47.7492566,-15.7227137],[-47.7499838,-15.7219973],[-47.750874,-15.7210214],[-47.7515613,-15.7201182],[-47.7526789,-15.7190358],[-47.7535696,-15.7184566],[-47.7545665,-15.7180383],[-47.7555543,-15.7181483],[-47.7566478,-15.7179566],[-47.7577343,-15.717351],[-47.7595236,-15.7155158],[-47.7604166,-15.7148365],[-47.7619777,-15.7134755],[-47.7700043,-15.721932],[-47.7717828,-15.7231994],[-47.7735825,-15.723982],[-47.7754684,-15.7244845],[-47.7778146,-15.724601],[-47.7802675,-15.7242474],[-47.7810588,-15.724297],[-47.7883265,-15.7269369],[-47.7900767,-15.7276604]]]}",
+        "aBoundingBox": [
+            "-15.7632176",
+            "-15.7134755",
+            "-47.7900767",
+            "-47.6746674"
+        ],
+        "icon": "https:\/\/nominatim.openstreetmap.org\/images\/mapicons\/poi_boundary_administrative.p.20.png",
+        "label": "City",
+        "name": "Itapo\u00e3, Regi\u00e3o Integrada de Desenvolvimento do Distrito Federal e Entorno, DF, Regi\u00e3o Centro-Oeste, Brasil",
+        "foundorder": -1.575197556387039
+    }
+];    </script>
+    <footer>
+    <p class="disclaimer">
+        Addresses and postcodes are approximate
+    </p>
+    <p class="copyright">
+        &copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors
+    </p>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/leaflet.min.js"></script>
+<script src="js/Control.Minimap.min.js"></script>
+<script src="js/url-search-params.js"></script>
+<script src="js/nominatim-ui.js"></script>
+
+</body>
+</html>

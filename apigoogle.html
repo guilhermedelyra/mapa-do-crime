@@ -23,16 +23,18 @@
     <script>
 
       // This example creates a simple polygon representing the Bermuda Triangle.
+      var map;
+      var infoWindow;
 
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 5,
-          center: {lat: 24.886, lng: -70.268},
+          zoom: 10,
+          center: {lat: -15.77556, lng: -47.79709},
           mapTypeId: 'terrain'
         });
 
         // Define the LatLng coordinates for the polygon's path.
-        var triangleCoords = [
+        var all_cities = [
           {lat: 25.774, lng: -80.190},
           {lat: 18.466, lng: -66.118},
           {lat: 32.321, lng: -64.757},
@@ -41,7 +43,7 @@
 
         // Construct the polygon.
         var bermudaTriangle = new google.maps.Polygon({
-          paths: triangleCoords,
+          paths: all_cities,
           strokeColor: '#FF0000',
           strokeOpacity: 0.8,
           strokeWeight: 2,
@@ -52,7 +54,6 @@
       }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
     </script>
   </body>
 </html>
