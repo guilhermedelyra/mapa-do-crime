@@ -28,29 +28,65 @@
 
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 10,
+          zoom: 10.5,
           center: {lat: -15.77556, lng: -47.79709},
-          mapTypeId: 'terrain'
+          styles: [
+            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels', stylers: [{visibility: 'off'}]},
+            {featureType: 'poi.park', elementType: 'geometry', stylers: [{color: '#263c3f'}]},
+            {featureType: 'road', elementType: 'geometry', stylers: [{color: '#38414e'}]},
+            {featureType: 'road', elementType: 'geometry.stroke', stylers: [{color: '#212a37'}]},
+            {featureType: 'road.highway', elementType: 'geometry', stylers: [{color: '#746855'}]},
+            {featureType: 'road.highway', elementType: 'geometry.stroke', stylers: [{color: '#1f2835'}]},
+            {featureType: 'transit', elementType: 'geometry', stylers: [{color: '#2f3948'}]},
+            {featureType: 'water', elementType: 'geometry', stylers: [{color: '#17263c'}]}
+          ]
+        });
+        var localities = ['distrito_federal','brasilia','gama','taguatinga','brazlandia','sobradinho','planaltina','paranoa','nucleo_bandeirante','ceilandia','guara','cruzeiro','samambaia','santa_maria','sao_sebastiao','recanto_das_emas','lago_sul','riacho_fundo','lago_norte','candangolandia','aguas_claras','riacho_fundo_ii','sudoeste_octogonal','varjao','park_way','scia','sobradinho_ii','jardim_botanico','itapoa','sia','vicente_pires','fercal']
+
+        localities.forEach(function(key, value){
+          map.data.loadGeoJson('http://localhost:3000/jsons?file='+key)
         });
 
-        // Define the LatLng coordinates for the polygon's path.
-        var all_cities = [
-          {lat: 25.774, lng: -80.190},
-          {lat: 18.466, lng: -66.118},
-          {lat: 32.321, lng: -64.757},
-          {lat: 25.774, lng: -80.190}
-        ];
-
-        // Construct the polygon.
-        var bermudaTriangle = new google.maps.Polygon({
-          paths: all_cities,
-          strokeColor: '#FF0000',
-          strokeOpacity: 0.8,
-          strokeWeight: 2,
-          fillColor: '#FF0000',
-          fillOpacity: 0.35
+        map.data.setStyle(function(feature) {
+          var city = feature.getProperty('name');
+          var strokeColor = 'green';
+          var strokeWeight = 1;
+          var fillOpacity = 0.35;
+          var strokeOpacity = 1;
+          if (city == 'Distrito Federal') {
+            strokeColor = '#000000';
+            fillOpacity = 0.0;
+            strokeOpacity = 1.0;
+            strokeWeight = 4;
+          }
+          return /** @type {google.maps.Data.StyleOptions} */ {
+              fillColor: 'green',
+              strokeColor : strokeColor,
+              fillOpacity : fillOpacity,
+              strokeOpacity : strokeOpacity,
+              strokeWeight : strokeWeight
+          };
         });
-        bermudaTriangle.setMap(map);
+
+        // // Define the LatLng coordinates for the polygon's path.
+        // var all_cities = [
+        //   {lat: 25.774, lng: -80.190},
+        //   {lat: 18.466, lng: -66.118},
+        //   {lat: 32.321, lng: -64.757},
+        //   {lat: 25.774, lng: -80.190}
+        // ];
+
+        // // Construct the polygon.
+        // var bermudaTriangle = new google.maps.Polygon({
+        //   paths: all_cities,
+        //   strokeColor: '#FF0000',
+        //   strokeOpacity: 0.8,
+        //   strokeWeight: 2,
+        //   fillColor: '#FF0000',
+        //   fillOpacity: 0.35
+        // });
+        // bermudaTriangle.setMap(map);
       }
     </script>
     <script async defer

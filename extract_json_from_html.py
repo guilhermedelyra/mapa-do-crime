@@ -13,7 +13,7 @@ bairros = ['Brasília','Gama','Taguatinga','Brazlândia','Sobradinho','Planaltin
 
 for bairro in bairros:
 	file_name = ra(bairro)
-	print('\''+file_name+'\' : handlers.'+file_name+',')
+	# print('\''+file_name+'\',', end='')
 	fin = open('htmls/'+file_name+'.txt', 'r')
 	fout = open('.data/jsons/'+file_name+'.json', 'w')
 
@@ -49,6 +49,6 @@ for bairro in bairros:
 		string_json = find_city4.findall(html)
 
 	rjson = extract_json.findall(string_json[0])
-	final_json = '{"geometry": '+rjson[0].replace(r'\\"', r'"').replace(r'\"', r'"')+'}'
+	final_json = '{"type": "Feature", "geometry": '+rjson[0].replace(r'\\"', r'"').replace(r'\"', r'"')+', "properties":{"name":"'+bairro+'"}}'
 	fout.write(final_json) 
 	fin.close()

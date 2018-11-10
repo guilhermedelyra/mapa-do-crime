@@ -76,7 +76,8 @@ var unifiedServer = function(req,res){
         var payloadString = JSON.stringify(payload);
 
         // Return the response
-        res.setHeader('Content-Type', 'application/json');
+        res.setHeader('contentType', 'application/json');
+        res.setHeader('Access-Control-Allow-Origin', '*');
         res.writeHead(statusCode);
         res.end(payloadString);
         console.log(trimmedPath,statusCode);
