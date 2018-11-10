@@ -20,6 +20,7 @@
   </head>
   <body>
     <div id="map"></div>
+    <script src="./lib/maplabel-compiled.js"></script>
     <script>
 
       // This example creates a simple polygon representing the Bermuda Triangle.
@@ -28,7 +29,7 @@
 
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 10.5,
+          zoom: 10.8,
           center: {lat: -15.77556, lng: -47.79709},
           styles: [
             {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
@@ -42,6 +43,8 @@
             {featureType: 'water', elementType: 'geometry', stylers: [{color: '#17263c'}]}
           ]
         });
+
+
         var localities = ['distrito_federal','brasilia','gama','taguatinga','brazlandia','sobradinho','planaltina','paranoa','nucleo_bandeirante','ceilandia','guara','cruzeiro','samambaia','santa_maria','sao_sebastiao','recanto_das_emas','lago_sul','riacho_fundo','lago_norte','candangolandia','aguas_claras','riacho_fundo_ii','sudoeste_octogonal','varjao','park_way','scia','sobradinho_ii','jardim_botanico','itapoa','sia','vicente_pires','fercal']
 
         localities.forEach(function(key, value){
@@ -51,7 +54,7 @@
         map.data.setStyle(function(feature) {
           var city = feature.getProperty('name');
           var strokeColor = 'green';
-          var strokeWeight = 1;
+          var strokeWeight = 2;
           var fillOpacity = 0.35;
           var strokeOpacity = 1;
           if (city == 'Distrito Federal') {
@@ -69,6 +72,14 @@
           };
         });
 
+        var mapLabel = new MapLabel({
+          text: 'Test',
+          position: new google.maps.LatLng(-15.77556,-47.79709),
+          map: map,
+          fontSize: 20,
+          align: 'right',
+          zIndex: 1e9
+        });
         // // Define the LatLng coordinates for the polygon's path.
         // var all_cities = [
         //   {lat: 25.774, lng: -80.190},
@@ -88,8 +99,7 @@
         // });
         // bermudaTriangle.setMap(map);
       }
-    </script>
-    <script async defer
+      google.maps.event.addDomListener(window, 'load', initMap);
     </script>
   </body>
 </html>
