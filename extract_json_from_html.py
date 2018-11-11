@@ -2,6 +2,7 @@ import re
 import json
 import os
 import unicodedata
+import ast
 
 if not os.path.exists('.data/jsons'):
     os.makedirs('.data/jsons')
@@ -27,10 +28,10 @@ for bairro in bairros:
 	pat_DF2 = r'\"langaddress\"\:\s\"' + word_to_regex + r'\,\sRegi\\u00e3o\sIntegrada\sde\sDesenvolvimento\sdo\sDistrito\sFederal\se\sEntorno\,\sDistrito\sFederal\,\sRegi\\u00e3o\sCentro-Oeste\,\sBrasil\"'
 	pat_DF3 = r'\"langaddress\"\:\s\"' + word_to_regex + r'\,\sRegi\\u00e3o\sIntegrada\sde\sDesenvolvimento\sdo\sDistrito\sFederal\se\sEntorno\,\sDF\,\sRegi\\u00e3o\sCentro-Oeste'
 	pat_DF4 = r'\"langaddress\"\:\s\"' + word_to_regex + r'\,\sRegi\\u00e3o\sIntegrada\sde\sDesenvolvimento\sdo\sDistrito\sFederal\se\sEntorno\,\sDistrito\sFederal\,\sRegi\\u00e3o\sCentro-Oeste'
-	pattern_city1 = r'(?<=' + pat_DF1 + r')(.*?)(?=aBoundingBox)'
-	pattern_city2 = r'(?<=' + pat_DF2 + r')(.*?)(?=aBoundingBox)'
-	pattern_city3 = r'(?<=' + pat_DF3 + r')(.*?)(?=aBoundingBox)'
-	pattern_city4 = r'(?<=' + pat_DF4 + r')(.*?)(?=aBoundingBox)'
+	pattern_city1 = r'(?<=' + pat_DF1 + r')(.*?)(?=\"icon)'
+	pattern_city2 = r'(?<=' + pat_DF2 + r')(.*?)(?=\"icon)'
+	pattern_city3 = r'(?<=' + pat_DF3 + r')(.*?)(?=\"icon)'
+	pattern_city4 = r'(?<=' + pat_DF4 + r')(.*?)(?=\"icon)'
 
 	find_city1 = re.compile(pattern_city1, re.DOTALL)
 	find_city2 = re.compile(pattern_city2, re.DOTALL)
@@ -39,6 +40,7 @@ for bairro in bairros:
 
 
 	extract_json = re.compile(r'(\{.*?\})')
+	extract_bounding = re.compile(r'\s(\[.*?\])', re.DOTALL)
 
 	string_json = find_city1.findall(html)
 	if (len(string_json) == 0):
@@ -48,7 +50,14 @@ for bairro in bairros:
 	if (len(string_json) == 0):
 		string_json = find_city4.findall(html)
 
+	bounding_box = extract_bounding.findall(string_json[0])
+	trimmed_bb = re.sub(r'[\n\s\t\"]*','', bounding_box[0]) 
+	rbound = ast.literal_eval(trimmed_bb)
+
+	lng = str(rbound[3] + ((rbound[2]-rbound[3])/2.0))
+	lat = str(rbound[1] + ((rbound[0]-rbound[1])/2.0))
+
 	rjson = extract_json.findall(string_json[0])
-	final_json = '{"type": "Feature", "geometry": '+rjson[0].replace(r'\\"', r'"').replace(r'\"', r'"')+', "properties":{"name":"'+bairro+'"}}'
+	final_json = '{"type": "Feature", "geometry": '+rjson[0].replace(r'\\"', r'"').replace(r'\"', r'"')+', "properties":{"name":"'+bairro+'","center":['+lat+','+lng+']}}'
 	fout.write(final_json) 
 	fin.close()
