@@ -1,0 +1,560 @@
+Região,Sigla UF,UF,Código IBGE Município,Município,Tipo Crime,Mês,Mês/Ano,PC-Qtde Ocorrências
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Estupro,1,01/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Estupro,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Estupro,3,03/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Estupro,4,04/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Estupro,5,05/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Estupro,6,06/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Furto de veículo,1,01/2017,146.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Furto de veículo,2,02/2017,38.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Furto de veículo,3,03/2017,130.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Furto de veículo,4,04/2017,109.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Furto de veículo,5,05/2017,168.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Furto de veículo,6,06/2017,123.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Homicídio doloso,1,01/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Homicídio doloso,2,02/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Homicídio doloso,4,04/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Homicídio doloso,5,05/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Roubo de veículo,1,01/2017,27.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Roubo de veículo,2,02/2017,26.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Roubo de veículo,3,03/2017,28.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Roubo de veículo,4,04/2017,27.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Roubo de veículo,5,05/2017,25.0
+CENTRO-OESTE,DF,Distrito Federal,530010801,Brasília,Roubo de veículo,6,06/2017,29.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Estupro,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Estupro,2,02/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Estupro,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Estupro,4,04/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Estupro,5,05/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Estupro,6,06/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Furto de veículo,1,01/2017,34.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Furto de veículo,2,02/2017,46.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Furto de veículo,3,03/2017,32.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Furto de veículo,4,04/2017,23.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Furto de veículo,5,05/2017,33.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Furto de veículo,6,06/2017,35.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Homicídio doloso,1,01/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Homicídio doloso,2,02/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Homicídio doloso,3,03/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Homicídio doloso,4,04/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Homicídio doloso,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Homicídio doloso,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Roubo de veículo,1,01/2017,28.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Roubo de veículo,2,02/2017,55.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Roubo de veículo,3,03/2017,30.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Roubo de veículo,4,04/2017,23.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Roubo de veículo,5,05/2017,25.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Roubo de veículo,6,06/2017,15.0
+CENTRO-OESTE,DF,Distrito Federal,530010802,Gama,Roubo seguido de morte (latrocínio),1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Estupro,1,01/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Estupro,2,02/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Estupro,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Estupro,4,04/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Estupro,5,05/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Estupro,6,06/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Furto de veículo,1,01/2017,49.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Furto de veículo,2,02/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Furto de veículo,3,03/2017,46.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Furto de veículo,4,04/2017,46.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Furto de veículo,5,05/2017,40.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Furto de veículo,6,06/2017,38.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Homicídio doloso,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Homicídio doloso,2,02/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Homicídio doloso,3,03/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Homicídio doloso,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Homicídio doloso,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Lesão corporal seguida de morte,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Roubo de veículo,1,01/2017,64.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Roubo de veículo,2,02/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Roubo de veículo,3,03/2017,62.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Roubo de veículo,4,04/2017,39.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Roubo de veículo,5,05/2017,77.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Roubo de veículo,6,06/2017,39.0
+CENTRO-OESTE,DF,Distrito Federal,530010803,Taguatinga,Roubo seguido de morte (latrocínio),1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Estupro,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Estupro,4,04/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Furto de veículo,1,01/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Furto de veículo,2,02/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Furto de veículo,3,03/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Furto de veículo,4,04/2017,12.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Furto de veículo,5,05/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Furto de veículo,6,06/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Homicídio doloso,1,01/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Homicídio doloso,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Roubo de veículo,1,01/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Roubo de veículo,2,02/2017,13.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Roubo de veículo,3,03/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Roubo de veículo,4,04/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Roubo de veículo,5,05/2017,10.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Roubo de veículo,6,06/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Roubo seguido de morte (latrocínio),1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Roubo seguido de morte (latrocínio),5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010804,Brazlândia,Roubo seguido de morte (latrocínio),6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Estupro,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Estupro,2,02/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Estupro,3,03/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Estupro,4,04/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Estupro,6,06/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Furto de veículo,1,01/2017,15.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Furto de veículo,2,02/2017,26.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Furto de veículo,3,03/2017,15.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Furto de veículo,4,04/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Furto de veículo,5,05/2017,10.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Furto de veículo,6,06/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Homicídio doloso,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Homicídio doloso,2,02/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Homicídio doloso,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Homicídio doloso,4,04/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Homicídio doloso,5,05/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Roubo de veículo,1,01/2017,10.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Roubo de veículo,2,02/2017,33.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Roubo de veículo,3,03/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Roubo de veículo,4,04/2017,13.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Roubo de veículo,5,05/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010805,Sobradinho,Roubo de veículo,6,06/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Estupro,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Estupro,3,03/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Estupro,4,04/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Estupro,5,05/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Estupro,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Furto de veículo,1,01/2017,29.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Furto de veículo,2,02/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Furto de veículo,3,03/2017,29.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Furto de veículo,4,04/2017,20.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Furto de veículo,5,05/2017,28.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Furto de veículo,6,06/2017,19.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Homicídio doloso,1,01/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Homicídio doloso,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Homicídio doloso,3,03/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Homicídio doloso,4,04/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Homicídio doloso,5,05/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Homicídio doloso,6,06/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Roubo de veículo,1,01/2017,19.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Roubo de veículo,2,02/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Roubo de veículo,3,03/2017,36.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Roubo de veículo,4,04/2017,25.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Roubo de veículo,5,05/2017,23.0
+CENTRO-OESTE,DF,Distrito Federal,530010806,Planaltina,Roubo de veículo,6,06/2017,24.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Estupro,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Estupro,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Estupro,5,05/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Estupro,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Furto de veículo,1,01/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Furto de veículo,2,02/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Furto de veículo,3,03/2017,10.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Furto de veículo,4,04/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Furto de veículo,5,05/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Furto de veículo,6,06/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Homicídio doloso,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Homicídio doloso,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Homicídio doloso,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Homicídio doloso,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Homicídio doloso,5,05/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Roubo de veículo,1,01/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Roubo de veículo,2,02/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Roubo de veículo,3,03/2017,10.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Roubo de veículo,4,04/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Roubo de veículo,5,05/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Roubo de veículo,6,06/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010807,Paranoá,Roubo seguido de morte (latrocínio),3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Estupro,2,02/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Estupro,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Furto de veículo,1,01/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Furto de veículo,2,02/2017,73.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Furto de veículo,3,03/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Furto de veículo,4,04/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Furto de veículo,5,05/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Furto de veículo,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Homicídio doloso,2,02/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Roubo de veículo,1,01/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Roubo de veículo,2,02/2017,71.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Roubo de veículo,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Roubo de veículo,4,04/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Roubo de veículo,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010808,Núcleo Bandeirante,Roubo seguido de morte (latrocínio),2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Estupro,1,01/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Estupro,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Estupro,3,03/2017,10.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Estupro,4,04/2017,13.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Estupro,5,05/2017,12.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Estupro,6,06/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Furto de veículo,1,01/2017,71.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Furto de veículo,2,02/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Furto de veículo,3,03/2017,74.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Furto de veículo,4,04/2017,67.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Furto de veículo,5,05/2017,61.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Furto de veículo,6,06/2017,54.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Homicídio doloso,1,01/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Homicídio doloso,3,03/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Homicídio doloso,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Homicídio doloso,5,05/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Homicídio doloso,6,06/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Roubo de veículo,1,01/2017,74.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Roubo de veículo,2,02/2017,26.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Roubo de veículo,3,03/2017,88.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Roubo de veículo,4,04/2017,53.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Roubo de veículo,5,05/2017,67.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Roubo de veículo,6,06/2017,53.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Roubo seguido de morte (latrocínio),3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010809,Ceilândia,Roubo seguido de morte (latrocínio),5,05/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Estupro,1,01/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Estupro,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Estupro,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Estupro,4,04/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Estupro,5,05/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Furto de veículo,1,01/2017,24.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Furto de veículo,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Furto de veículo,3,03/2017,14.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Furto de veículo,4,04/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Furto de veículo,5,05/2017,14.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Furto de veículo,6,06/2017,16.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Homicídio doloso,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Roubo de veículo,1,01/2017,19.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Roubo de veículo,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Roubo de veículo,3,03/2017,18.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Roubo de veículo,4,04/2017,13.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Roubo de veículo,5,05/2017,12.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Roubo de veículo,6,06/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010810,Guará,Roubo seguido de morte (latrocínio),5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010811,Cruzeiro,Estupro,2,02/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010811,Cruzeiro,Furto de veículo,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010811,Cruzeiro,Furto de veículo,2,02/2017,40.0
+CENTRO-OESTE,DF,Distrito Federal,530010811,Cruzeiro,Furto de veículo,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010811,Cruzeiro,Furto de veículo,5,05/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010811,Cruzeiro,Furto de veículo,6,06/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010811,Cruzeiro,Homicídio doloso,2,02/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010811,Cruzeiro,Roubo de veículo,1,01/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010811,Cruzeiro,Roubo de veículo,2,02/2017,40.0
+CENTRO-OESTE,DF,Distrito Federal,530010811,Cruzeiro,Roubo de veículo,3,03/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010811,Cruzeiro,Roubo de veículo,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010811,Cruzeiro,Roubo de veículo,5,05/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010811,Cruzeiro,Roubo de veículo,6,06/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Estupro,1,01/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Estupro,3,03/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Estupro,4,04/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Estupro,5,05/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Estupro,6,06/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Furto de veículo,1,01/2017,36.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Furto de veículo,2,02/2017,17.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Furto de veículo,3,03/2017,45.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Furto de veículo,4,04/2017,33.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Furto de veículo,5,05/2017,40.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Furto de veículo,6,06/2017,22.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Homicídio doloso,1,01/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Homicídio doloso,2,02/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Homicídio doloso,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Homicídio doloso,4,04/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Homicídio doloso,5,05/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Homicídio doloso,6,06/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Roubo de veículo,1,01/2017,55.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Roubo de veículo,2,02/2017,36.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Roubo de veículo,3,03/2017,68.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Roubo de veículo,4,04/2017,56.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Roubo de veículo,5,05/2017,73.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Roubo de veículo,6,06/2017,44.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Roubo seguido de morte (latrocínio),2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010812,Samambaia,Roubo seguido de morte (latrocínio),4,04/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Estupro,1,01/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Estupro,2,02/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Estupro,3,03/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Estupro,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Estupro,5,05/2017,10.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Estupro,6,06/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Furto de veículo,1,01/2017,14.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Furto de veículo,2,02/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Furto de veículo,3,03/2017,18.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Furto de veículo,4,04/2017,23.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Furto de veículo,5,05/2017,18.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Furto de veículo,6,06/2017,29.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Homicídio doloso,1,01/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Homicídio doloso,2,02/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Homicídio doloso,3,03/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Homicídio doloso,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Homicídio doloso,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Homicídio doloso,6,06/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Roubo de veículo,1,01/2017,26.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Roubo de veículo,2,02/2017,13.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Roubo de veículo,3,03/2017,44.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Roubo de veículo,4,04/2017,26.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Roubo de veículo,5,05/2017,35.0
+CENTRO-OESTE,DF,Distrito Federal,530010813,Santa Maria,Roubo de veículo,6,06/2017,24.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Estupro,1,01/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Estupro,2,02/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Estupro,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Estupro,4,04/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Estupro,5,05/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Estupro,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Furto de veículo,1,01/2017,10.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Furto de veículo,2,02/2017,15.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Furto de veículo,3,03/2017,10.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Furto de veículo,4,04/2017,14.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Furto de veículo,5,05/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Furto de veículo,6,06/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Homicídio doloso,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Homicídio doloso,2,02/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Homicídio doloso,3,03/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Homicídio doloso,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Homicídio doloso,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Homicídio doloso,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Roubo de veículo,1,01/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Roubo de veículo,2,02/2017,31.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Roubo de veículo,3,03/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Roubo de veículo,4,04/2017,18.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Roubo de veículo,5,05/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Roubo de veículo,6,06/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010814,São Sebastião,Roubo seguido de morte (latrocínio),5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Estupro,1,01/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Estupro,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Estupro,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Estupro,4,04/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Estupro,5,05/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Estupro,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Furto de veículo,1,01/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Furto de veículo,3,03/2017,15.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Furto de veículo,4,04/2017,16.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Furto de veículo,5,05/2017,16.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Furto de veículo,6,06/2017,11.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Homicídio doloso,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Homicídio doloso,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Homicídio doloso,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Homicídio doloso,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Roubo de veículo,1,01/2017,42.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Roubo de veículo,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Roubo de veículo,3,03/2017,33.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Roubo de veículo,4,04/2017,32.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Roubo de veículo,5,05/2017,16.0
+CENTRO-OESTE,DF,Distrito Federal,530010815,Recanto Das Emas,Roubo de veículo,6,06/2017,26.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Estupro,2,02/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Estupro,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Estupro,5,05/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Furto de veículo,1,01/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Furto de veículo,2,02/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Furto de veículo,3,03/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Furto de veículo,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Furto de veículo,5,05/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Furto de veículo,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Homicídio doloso,4,04/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Roubo de veículo,1,01/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Roubo de veículo,2,02/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Roubo de veículo,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Roubo de veículo,4,04/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Roubo de veículo,5,05/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010816,Lago Sul,Roubo de veículo,6,06/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Estupro,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Estupro,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Estupro,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Furto de veículo,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Furto de veículo,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Furto de veículo,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Furto de veículo,5,05/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Furto de veículo,6,06/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Homicídio doloso,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Homicídio doloso,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Homicídio doloso,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Roubo de veículo,2,02/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Roubo de veículo,3,03/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Roubo de veículo,4,04/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Roubo de veículo,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010817,Riacho Fundo,Roubo de veículo,6,06/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Estupro,1,01/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Estupro,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Estupro,6,06/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Furto de veículo,1,01/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Furto de veículo,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Furto de veículo,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Furto de veículo,4,04/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Furto de veículo,5,05/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Furto de veículo,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Homicídio doloso,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Roubo de veículo,1,01/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Roubo de veículo,2,02/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Roubo de veículo,3,03/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Roubo de veículo,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Roubo de veículo,5,05/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010818,Lago Norte,Roubo de veículo,6,06/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010819,Candangolândia,Estupro,1,01/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010819,Candangolândia,Estupro,2,02/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010819,Candangolândia,Estupro,5,05/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010819,Candangolândia,Furto de veículo,2,02/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010819,Candangolândia,Furto de veículo,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010819,Candangolândia,Furto de veículo,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010819,Candangolândia,Furto de veículo,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010819,Candangolândia,Homicídio doloso,4,04/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010819,Candangolândia,Homicídio doloso,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010819,Candangolândia,Roubo de veículo,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010819,Candangolândia,Roubo de veículo,2,02/2017,13.0
+CENTRO-OESTE,DF,Distrito Federal,530010819,Candangolândia,Roubo de veículo,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010819,Candangolândia,Roubo de veículo,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Estupro,1,01/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Estupro,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Estupro,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Estupro,5,05/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Estupro,6,06/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Furto de veículo,1,01/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Furto de veículo,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Furto de veículo,3,03/2017,18.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Furto de veículo,4,04/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Furto de veículo,5,05/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Furto de veículo,6,06/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Homicídio doloso,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Homicídio doloso,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Homicídio doloso,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Homicídio doloso,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Roubo de veículo,1,01/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Roubo de veículo,2,02/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Roubo de veículo,3,03/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Roubo de veículo,4,04/2017,12.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Roubo de veículo,5,05/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Roubo de veículo,6,06/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010820,Águas Claras,Roubo seguido de morte (latrocínio),3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Estupro,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Estupro,5,05/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Estupro,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Furto de veículo,1,01/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Furto de veículo,2,02/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Furto de veículo,3,03/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Furto de veículo,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Furto de veículo,5,05/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Furto de veículo,6,06/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Homicídio doloso,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Roubo de veículo,1,01/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Roubo de veículo,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Roubo de veículo,3,03/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Roubo de veículo,4,04/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Roubo de veículo,5,05/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010821,Riacho Fundo Ii,Roubo de veículo,6,06/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010822,Sudoeste/Octogonal,Estupro,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010822,Sudoeste/Octogonal,Estupro,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010822,Sudoeste/Octogonal,Furto de veículo,1,01/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010822,Sudoeste/Octogonal,Furto de veículo,3,03/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010822,Sudoeste/Octogonal,Furto de veículo,4,04/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010822,Sudoeste/Octogonal,Furto de veículo,5,05/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010822,Sudoeste/Octogonal,Furto de veículo,6,06/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010822,Sudoeste/Octogonal,Roubo de veículo,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010822,Sudoeste/Octogonal,Roubo de veículo,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010822,Sudoeste/Octogonal,Roubo de veículo,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010822,Sudoeste/Octogonal,Roubo de veículo,5,05/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010823,Varjão,Estupro,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010823,Varjão,Furto de veículo,2,02/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010823,Varjão,Furto de veículo,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010823,Varjão,Furto de veículo,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010823,Varjão,Furto de veículo,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010823,Varjão,Roubo de veículo,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010823,Varjão,Roubo de veículo,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010823,Varjão,Roubo de veículo,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010824,Park Way,Estupro,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010824,Park Way,Estupro,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010824,Park Way,Furto de veículo,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010824,Park Way,Furto de veículo,2,02/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010824,Park Way,Furto de veículo,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010824,Park Way,Furto de veículo,4,04/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010824,Park Way,Homicídio doloso,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010824,Park Way,Roubo de veículo,1,01/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010824,Park Way,Roubo de veículo,2,02/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010824,Park Way,Roubo de veículo,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010824,Park Way,Roubo de veículo,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010824,Park Way,Roubo de veículo,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Estupro,1,01/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Estupro,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Estupro,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Estupro,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Estupro,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Furto de veículo,1,01/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Furto de veículo,3,03/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Furto de veículo,4,04/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Furto de veículo,5,05/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Furto de veículo,6,06/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Homicídio doloso,1,01/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Homicídio doloso,2,02/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Homicídio doloso,4,04/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Homicídio doloso,5,05/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Homicídio doloso,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Roubo de veículo,1,01/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Roubo de veículo,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Roubo de veículo,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Roubo de veículo,4,04/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010825,Scia (Estrutural),Roubo de veículo,6,06/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010826,Sobradinho Ii,Estupro,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010826,Sobradinho Ii,Estupro,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010826,Sobradinho Ii,Estupro,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010826,Sobradinho Ii,Furto de veículo,1,01/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010826,Sobradinho Ii,Furto de veículo,2,02/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010826,Sobradinho Ii,Furto de veículo,4,04/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010826,Sobradinho Ii,Furto de veículo,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010826,Sobradinho Ii,Homicídio doloso,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010826,Sobradinho Ii,Homicídio doloso,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010826,Sobradinho Ii,Homicídio doloso,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010826,Sobradinho Ii,Roubo de veículo,2,02/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010826,Sobradinho Ii,Roubo de veículo,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010826,Sobradinho Ii,Roubo de veículo,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Estupro,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Estupro,4,04/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Estupro,5,05/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Estupro,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Furto de veículo,1,01/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Furto de veículo,3,03/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Furto de veículo,4,04/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Furto de veículo,5,05/2017,11.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Furto de veículo,6,06/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Homicídio doloso,1,01/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Homicídio doloso,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Homicídio doloso,4,04/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Homicídio doloso,6,06/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Roubo de veículo,1,01/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Roubo de veículo,2,02/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Roubo de veículo,3,03/2017,11.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Roubo de veículo,4,04/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Roubo de veículo,5,05/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010827,Jardim Botânico,Roubo de veículo,6,06/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010828,Itapoá,Estupro,2,02/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010828,Itapoá,Estupro,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010828,Itapoá,Furto de veículo,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010828,Itapoá,Furto de veículo,2,02/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010828,Itapoá,Furto de veículo,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010828,Itapoá,Homicídio doloso,2,02/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010828,Itapoá,Roubo de veículo,2,02/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010828,Itapoá,Roubo de veículo,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Estupro,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Estupro,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Estupro,5,05/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Estupro,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Furto de veículo,1,01/2017,4.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Furto de veículo,2,02/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Furto de veículo,3,03/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Furto de veículo,4,04/2017,7.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Furto de veículo,5,05/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Furto de veículo,6,06/2017,10.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Homicídio doloso,1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Homicídio doloso,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Homicídio doloso,4,04/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Homicídio doloso,5,05/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Homicídio doloso,6,06/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Roubo de veículo,1,01/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Roubo de veículo,2,02/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Roubo de veículo,3,03/2017,5.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Roubo de veículo,4,04/2017,6.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Roubo de veículo,5,05/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Roubo de veículo,6,06/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Roubo seguido de morte (latrocínio),1,01/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010829,S.I.A.,Roubo seguido de morte (latrocínio),4,04/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Estupro,1,01/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Estupro,2,02/2017,3.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Estupro,4,04/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Estupro,5,05/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Estupro,6,06/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Furto de veículo,1,01/2017,23.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Furto de veículo,2,02/2017,13.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Furto de veículo,3,03/2017,26.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Furto de veículo,4,04/2017,15.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Furto de veículo,5,05/2017,28.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Furto de veículo,6,06/2017,27.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Homicídio doloso,1,01/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Homicídio doloso,2,02/2017,2.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Homicídio doloso,3,03/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Homicídio doloso,5,05/2017,1.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Roubo de veículo,1,01/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Roubo de veículo,2,02/2017,8.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Roubo de veículo,3,03/2017,11.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Roubo de veículo,4,04/2017,9.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Roubo de veículo,5,05/2017,11.0
+CENTRO-OESTE,DF,Distrito Federal,530010830,Vicente Pires,Roubo de veículo,6,06/2017,6.0
