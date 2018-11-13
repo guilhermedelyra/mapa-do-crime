@@ -6,11 +6,11 @@ import unicodedata
 from collections import defaultdict
 
 def ra(text):
-	return (unicodedata.normalize('NFKD', text).encode('ASCII', 'ignore')).decode('utf-8').lower().replace('/', '').replace('  ', ' ').replace(' ', '_')
+	return (unicodedata.normalize('NFKD', text).encode('ASCII', 'ignore')).decode('utf-8').lower().replace('/', '_').replace('  ', ' ').replace(' ', '_').replace('.','').split('_(')[0]
 
 filename = '.data/csvs/ocorrenciasmun-brasil'
 
-bairros = ['Brasília','Gama','Taguatinga','Brazlândia','Sobradinho','Planaltina','Paranoá','Núcleo Bandeirante','Ceilândia','Guará','Cruzeiro','Samambaia','Santa Maria','São Sebastião','Recanto das Emas','Lago Sul','Riacho Fundo','Lago Norte','Candangolândia','Águas Claras','Riacho Fundo II','Sudoeste / Octogonal','Varjão','Park Way','SCIA','Sobradinho II','Jardim Botânico','Itapoã','SIA','Vicente Pires','Fercal']
+bairros = ['Brasília','Gama','Taguatinga','Brazlândia','Sobradinho','Planaltina','Paranoá','Núcleo Bandeirante','Ceilândia','Guará','Cruzeiro','Samambaia','Santa Maria','São Sebastião','Recanto Das Emas','Lago Sul','Riacho Fundo','Lago Norte','Candangolândia','Águas Claras','Riacho Fundo Ii','Sudoeste/Octogonal','Varjão','Park Way','Scia (Estrutural)','Sobradinho Ii','Jardim Botânico','Itapoá','S.I.A.','Vicente Pires','Fercal']
 df = []
 for i in range(2013, 2018):
 	path = filename+str(i)

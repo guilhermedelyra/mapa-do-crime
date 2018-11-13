@@ -81,7 +81,6 @@
         for (key in cities) {
           var count = cities[key][cmp];
           cord[key] = count*0.015;
-          if(cmp == 'Recanto das Emas') console.log(count, cord[key]);
         }
 
         if (cord['top']) center.lat += cord['top'];
@@ -112,23 +111,28 @@
         var localities = ['distrito_federal','brasilia','gama','taguatinga','brazlandia','sobradinho','planaltina','paranoa','nucleo_bandeirante','ceilandia','guara','cruzeiro','samambaia','santa_maria','sao_sebastiao','recanto_das_emas','lago_sul','riacho_fundo','lago_norte','candangolandia','aguas_claras','riacho_fundo_ii','sudoeste_octogonal','varjao','park_way','scia','sobradinho_ii','jardim_botanico','itapoa','sia','vicente_pires','fercal']
         
         localities.forEach(function(key, value){
+          if (key != 'distrito_federal') key += '2';
           map.data.loadGeoJson('http://localhost:3000/jsons?file='+key)
         });
 
         map.data.setStyle(function(feature) {
           var city = feature.getProperty('name');
-          var strokeColor = 'green';
+          var strokeColor;
+          var fillColor;
           var strokeWeight = 2;
-          var fillOpacity = 0.35;
+          var fillOpacity = 0.55;
           var strokeOpacity = 1;
           if (city == 'Distrito Federal') {
             strokeColor = '#000000';
             fillOpacity = 0.0;
             strokeOpacity = 1.0;
-            strokeWeight = 4;
+            strokeWeight = 6;
+          } else {
+            strokeColor = feature.getProperty('Colors')['All']['Total']['strokeColor'];
+            fillColor = feature.getProperty('Colors')['All']['Total']['fillColor'];
           }
           return /** @type {google.maps.Data.StyleOptions} */ {
-              fillColor: 'red',
+              fillColor: fillColor,
               strokeColor : strokeColor,
               fillOpacity : fillOpacity,
               strokeOpacity : strokeOpacity,
