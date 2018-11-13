@@ -16,8 +16,7 @@ for i in range(2013, 2018):
 	path = filename+str(i)
 	df.append(pd.read_csv(path+'-lol.csv', encoding='latin1'))
 
-max_crimes = defaultdict(lambda: 0)
-all_crimes = 0
+max_crimes = defaultdict(lambda:defaultdict(lambda:defaultdict(lambda:0)))
 for bairro in bairros:
 	file_name = ra(bairro)
 	fin = open('.data/jsons/'+file_name+'.json', 'r')
@@ -37,19 +36,29 @@ for bairro in bairros:
 			tipo_crime = j['Tipo Crime']
 			qtd_crime = int(j['PC-Qtde Ocorrências'])
 			tot_crimes[tipo_crime] += qtd_crime
+			
+			max_crimes['Ocorrencias-Totais'][str(2013+i)][tipo_crime] += qtd_crime
+			max_crimes['Ocorrencias-Totais']['All'][tipo_crime] += qtd_crime
+
+			max_crimes['Maiores-Ocorrencias'][str(2013+i)][tipo_crime] = max(max_crimes['Maiores-Ocorrencias'][str(2013+i)][tipo_crime], qtd_crime)
+
 			tot += qtd_crime
 			js += '"' + tipo_crime + '":' + str(qtd_crime) + ','
 
 		tot_crimes['Total'] += tot
-		js+='"Total":'+str(tot)+'},'
+		max_crimes['Ocorrencias-Totais'][str(2013+i)]['Total'] += tot
+		max_crimes['Ocorrencias-Totais']['All']['Total'] += tot
+		max_crimes['Maiores-Ocorrencias'][str(2013+i)]['Total'] = max(max_crimes['Maiores-Ocorrencias'][str(2013+i)]['Total'], tot)
 
-		max_crimes[str(2013+i)] = max(max_crimes[str(2013+i)], tot)
-		all_crimes+=tot
+		js+='"Total":'+str(tot)+'},'
 
 	js+='"All":'+str(dict(tot_crimes)).replace('\'', '"')
 	js+='}}'
+	for key, value in tot_crimes.items():
+		max_crimes['Maiores-Ocorrencias']['All'][key] = max(max_crimes['Maiores-Ocorrencias']['All'][key], tot_crimes[key])
 
 	fout.write(js.replace(',}', '}').replace(',,', ','))
 
-print(max_crimes)
-print(all_crimes)
+aaa = [str({key: [{k: dict(v)} for k, v in value.items()]}) for key, value in max_crimes.items()]
+for a in aaa:
+	print(a.replace('\'', '"'))
